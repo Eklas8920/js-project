@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GadgetZone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+
+  <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-600">GadgetZone</h1>
+    <button class="bg-blue-500 text-white px-4 py-2 rounded">Download</button>
+  </nav>
+
+
+  <div class="relative overflow-hidden">
+    <div class="flex transition-all duration-500" id="slider">
+      <div class="min-w-full bg-blue-200 h-64 flex items-center justify-center text-2xl font-bold">Welcome to GadgetZone</div>
+      <div class="min-w-full bg-green-200 h-64 flex items-center justify-center text-2xl font-bold">Find Your Perfect Gadget</div>
+      <div class="min-w-full bg-purple-200 h-64 flex items-center justify-center text-2xl font-bold">Best Deals, Best Devices</div>
+    </div>
+  </div>
+
+ 
+  <section class="p-4">
+    <h2 class="text-xl font-bold mb-4">Popular Gadgets</h2>
+    <div id="products" class="grid grid-cols-1 md:grid-cols-3 gap-4"></div>
+  </section>
+
+ 
+  <div class="bg-white p-4 shadow-md m-4">
+    <h3 class="text-lg font-semibold">Caummary</h3>
+    <p id="cart-items">Items: 0</p>
+    <p id="cart-price">Total: ৳0</p>
+    <p id="delivery">Delivery: ৳60</p>
+    <p id="discount">Discount: ৳0</p>
+    <p id="total-payable" class="font-bold">Payable: ৳60</p>
+  </div>
+
+  <script src="beg.js"></script>
+</body>
+</html>
